@@ -1,0 +1,211 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Azeret Mono', monospace;
+}
+.container{
+    width: 1044px;
+    margin: 0 auto;
+}
+.topbar{
+    width: 100%;
+    height: 32px;
+    background: black;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+}
+.topbar a{
+    color: white;
+    font-weight: 500;
+}
+.header-main{
+    width: 100%;
+    height: 120px;
+    /* background: red;*/
+    padding: 12px 0;
+}
+.logo{
+    width: 30%;
+    height: 120px;
+    /* background: grey;*/
+    float: left;
+}
+.logo img{
+    width: 80%;
+    margin-top: 40px;
+}
+.nav{
+    width: calc(70% - 24px);
+    height: 120px;
+    /* background: grey;*/
+    float: right;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 28px;
+    line-height: 115px;
+}
+.nav li a{
+    color: #1f1f1f;
+    text-decoration: none;
+}
+.nav li a:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+}
+.header-bottom{
+    width: 100%;
+    height: 50px;
+    background: #F3F4F6;
+    text-align: center;
+    /*
+    border: 6px solid black;
+    box-sizing: border-box;
+    */
+    line-height: 50px;
+}
+.header-bottom span{
+    color: #1f1f1f;
+}
+/*header*/
+.section-1{
+    width: 100%;
+    height: 400px;
+    margin-top: 24px;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.section-1 h1{
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 8px 40px;
+}
+.section-2{
+    width: 100%;
+    height: 450px;
+    background: #F3F4F6;
+    padding: 130px 0;
+}
+.section-2 h1{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.box{
+    width: calc(25% - 30px);
+    height: 360px;
+    background: white;
+    float: left;
+    margin-left: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.feature-image img{
+    width: 100%;
+}
+.infor{
+    box-sizing: border-box;
+}
+.infor p{
+    font-size: 14px;
+    margin: 16px 0 20px;
+}
+.price{
+    font-weight: 500;
+    margin-right: 30px;
+}
+.sale{
+    font-size: 14px;
+}
+.section-3{
+    width: 100%;
+    height: 400px;
+     /* background: red;*/
+     padding-bottom: 130px;
+}
+.section-3 h1{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.left{
+    width: 60%;
+    height: 400px;
+    /*background: #3DE6D6;*/
+    float: left;
+}
+.left feature-image{
+    width: 100%;
+}
+.right{
+    width: calc(40% - 24px);
+    height: 400px;
+    /*background: #3DE6D6;*/
+    float: right;
+}
+.right .feature-image{
+    width: 100%;
+}
+.right infor p{
+    font-size: 14px;
+    margin: 16px 0 20px;
+}
+.about{
+    padding: 60px 0;
+    background-color: #F3F4F6;
+}
+.feature-img{
+    width: 50%;
+    height: 500px;
+    /*background-color: rebeccapurple;*/
+    display: inline-block;
+    vertical-align: middle;
+}
+.content-about{
+    width: calc(50% - 5px);
+    display: inline-block;
+    vertical-align: middle;
+}
+/*main*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background: lightgrey;
+    text-align: center;
+    line-height: 120px;
+}
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+.footer li{
+    display: inline-block;
+    margin: 0 24px;
+}
+.footer li a{
+    color: #1f1f1f;
+    text-decoration: none;
+}
+.footer p{
+    text-align: center;
+    margin-top: 24px;
+}
